@@ -833,3 +833,595 @@ news-filter .active span {
 .footer-bottom a:hover {
   text-decoration: underline;
 }
+
+/* ============================= */
+/* RESPONSIVE CSS */
+/* ============================= */
+
+/* Tablets and smaller laptops */
+@media (max-width: 1024px) {
+  .site-header {
+    height: 80px;
+  }
+
+  .site-header nav {
+    gap: 22px;
+  }
+
+  .site-header nav a {
+    font-size: 13px;
+  }
+
+  .site-header .logo {
+    font-size: 20px;
+  }
+
+  .menu-button {
+    font-size: 34px;
+  }
+
+  .link-contents {
+    height: auto;
+    padding: 40px 25px;
+    gap: 20px;
+  }
+
+  .moo-link img,
+  .eymonk-link img,
+  .pexels-link img {
+    height: 22vh;
+    padding: 30px;
+  }
+
+  .about-brand {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-description {
+    max-width: 100%;
+    padding: 40px 30px;
+  }
+
+  .brand-description p {
+    font-size: 26px;
+  }
+
+  .brand-image {
+    max-width: 70%;
+    padding-bottom: 40px;
+  }
+
+  .case-studies {
+    grid-template-columns: 1fr;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .case-study img,
+  .case-study video {
+    height: 60vh;
+  }
+
+  .clients-section {
+    padding: 50px 25px 100px;
+  }
+
+  .clients-track {
+    gap: 80px;
+    padding: 40px 20px 120px;
+  }
+
+  .client-card {
+    min-width: 320px;
+    max-width: 320px;
+  }
+
+  .client-info p {
+    font-size: 18px;
+  }
+
+  .featured-news {
+    padding: 70px 30px;
+  }
+
+  .news-item {
+    grid-template-columns: 320px 1fr 40px;
+  }
+
+  .news-content h3 {
+    font-size: 36px;
+  }
+
+  .footer-main {
+    padding: 80px 40px 90px;
+  }
+
+  .footer-content {
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 50px;
+  }
+
+  .footer-column:last-child {
+    grid-column: span 3;
+  }
+
+  .footer-bottom {
+    padding: 22px 40px;
+  }
+}
+
+
+/* Tablets / large phones */
+@media (max-width: 768px) {
+  .video-header {
+    height: 85vh;
+  }
+
+  .site-header {
+    height: 75px;
+  }
+
+  .site-header nav {
+    display: none;
+  }
+
+  .site-header .logo {
+    left: 25px;
+    font-size: 18px;
+  }
+
+  .menu-button {
+    right: 25px;
+    font-size: 32px;
+  }
+
+  .link-contents {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    padding: 30px 20px;
+  }
+
+  .moo-link,
+  .eymonk-link,
+  .pexels-link {
+    min-height: 280px;
+  }
+
+  .moo-link img,
+  .eymonk-link img,
+  .pexels-link img {
+    height: 18vh;
+    padding: 25px;
+  }
+
+  .brand-description {
+    padding: 35px 22px;
+  }
+
+  .brand-description p {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+
+  .brand-image {
+    max-width: 85%;
+  }
+
+  .case-studies {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 25px;
+  }
+
+  .case-study img,
+  .case-study video {
+    height: 55vh;
+  }
+
+  .clients-section {
+    padding: 40px 20px 90px;
+  }
+
+  .clients-track {
+    gap: 50px;
+    padding: 30px 10px 100px;
+  }
+
+  .client-card {
+    min-width: 280px;
+    max-width: 280px;
+  }
+
+  .client-logo {
+    font-size: 38px;
+    height: 65px;
+  }
+
+  .kfc-logo {
+    font-size: 48px;
+  }
+
+  .wilson-logo {
+    font-size: 44px;
+  }
+
+  .patagonia-logo {
+    font-size: 36px;
+  }
+
+  .dash {
+    margin-bottom: 70px;
+  }
+
+  .client-info h3 {
+    font-size: 21px;
+  }
+
+  .client-info p {
+    font-size: 17px;
+  }
+
+  .bottom-line {
+    left: 25px;
+    right: 25px;
+    bottom: 60px;
+  }
+
+  .featured-news {
+    padding: 60px 22px;
+  }
+
+  .news-heading {
+    margin-bottom: 40px;
+  }
+
+  .news-heading h2 {
+    font-size: 38px;
+  }
+
+  .view-all {
+    padding: 10px 25px;
+  }
+
+  .news-item {
+    grid-template-columns: 1fr 35px;
+    gap: 18px;
+    padding: 22px 0 55px;
+  }
+
+  .news-image {
+    grid-column: 1 / -1;
+    height: 260px;
+  }
+
+  .news-content {
+    grid-column: 1 / 2;
+  }
+
+  .news-content h3 {
+    font-size: 34px;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+  }
+
+  .news-arrow {
+    grid-column: 2 / 3;
+    font-size: 42px;
+  }
+
+  .news-page {
+    padding: 40px 22px;
+  }
+
+  .news-page h1 {
+    font-size: 48px;
+    letter-spacing: -2px;
+  }
+
+  .new-page-section {
+    padding: 80px 22px;
+  }
+
+  .news-hero {
+    min-height: 280px;
+  }
+
+  .news-hero h1 {
+    font-size: 70px;
+  }
+
+  .news-filter {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 18px 28px;
+  }
+
+  .footer-main {
+    padding: 70px 25px 80px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 55px;
+    margin-bottom: 75px;
+  }
+
+  .footer-message h2 {
+    font-size: 30px;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .footer-column:last-child {
+    grid-column: auto;
+  }
+
+  .newsletter-form {
+    max-width: 100%;
+  }
+
+  .footer-bottom {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 24px 25px;
+    text-align: left;
+  }
+
+  .footer-bottom p:nth-child(2),
+  .footer-bottom p:nth-child(3) {
+    text-align: left;
+  }
+}
+
+
+/* Small phones */
+@media (max-width: 480px) {
+  .video-header {
+    height: 80vh;
+  }
+
+  .site-header {
+    height: 70px;
+  }
+
+  .site-header .logo {
+    left: 18px;
+    font-size: 16px;
+  }
+
+  .menu-button {
+    right: 18px;
+    font-size: 28px;
+  }
+
+  .link-contents {
+    padding: 20px 15px;
+    gap: 18px;
+  }
+
+  .moo-link,
+  .eymonk-link,
+  .pexels-link {
+    padding: 18px;
+    min-height: 240px;
+  }
+
+  .moo-link img,
+  .eymonk-link img,
+  .pexels-link img {
+    height: 14vh;
+    padding: 18px;
+  }
+
+  .moo-link span,
+  .eymonk-link span,
+  .pexels-link span {
+    font-size: 14px;
+  }
+
+  .brand-description {
+    padding: 30px 18px;
+  }
+
+  .brand-description p {
+    font-size: 21px;
+  }
+
+  .see-work {
+    display: inline-block;
+    padding: 9px 22px;
+  }
+
+  .brand-image {
+    max-width: 90%;
+  }
+
+  .case-studies {
+    padding: 15px;
+    gap: 20px;
+  }
+
+  .case-study {
+    padding: 8px;
+  }
+
+  .case-study img,
+  .case-study video {
+    height: 45vh;
+  }
+
+  .case-study span {
+    font-size: 15px;
+  }
+
+  .case-study p {
+    font-size: 14px;
+  }
+
+  .clients-section {
+    padding: 35px 15px 80px;
+  }
+
+  .clients-track {
+    gap: 35px;
+    padding: 25px 5px 90px;
+  }
+
+  .client-card {
+    min-width: 240px;
+    max-width: 240px;
+  }
+
+  .client-logo {
+    font-size: 32px;
+    height: 55px;
+  }
+
+  .kfc-logo {
+    font-size: 40px;
+  }
+
+  .wilson-logo {
+    font-size: 36px;
+  }
+
+  .att-logo {
+    font-size: 42px;
+  }
+
+  .patagonia-logo {
+    font-size: 30px;
+  }
+
+  .dash {
+    font-size: 24px;
+    margin-bottom: 55px;
+  }
+
+  .client-info h3 {
+    font-size: 19px;
+  }
+
+  .client-info p {
+    font-size: 15px;
+  }
+
+  .bottom-line {
+    left: 18px;
+    right: 18px;
+    bottom: 50px;
+  }
+
+  .featured-news {
+    padding: 50px 18px;
+  }
+
+  .news-heading {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .news-heading h2 {
+    font-size: 34px;
+  }
+
+  .view-all {
+    width: fit-content;
+  }
+
+  .news-item {
+    grid-template-columns: 1fr 28px;
+    gap: 12px;
+    padding: 18px 0 45px;
+  }
+
+  .news-image {
+    height: 220px;
+  }
+
+  .news-content h3 {
+    font-size: 28px;
+    letter-spacing: -1.5px;
+  }
+
+  .news-content p {
+    font-size: 11px;
+  }
+
+  .news-arrow {
+    font-size: 34px;
+  }
+
+  .news-page {
+    padding: 30px 18px;
+  }
+
+  .news-page h1 {
+    font-size: 38px;
+    letter-spacing: -1.5px;
+  }
+
+  .new-page-section {
+    padding: 70px 18px;
+  }
+
+  .news-hero {
+    min-height: 240px;
+  }
+
+  .news-hero h1 {
+    font-size: 55px;
+  }
+
+  .news-filter {
+    gap: 14px 20px;
+  }
+
+  .news-filter a {
+    font-size: 12px;
+  }
+
+  .news-filter span {
+    width: 15px;
+    height: 15px;
+  }
+
+  .footer-main {
+    padding: 60px 18px 70px;
+  }
+
+  .footer-logo {
+    font-size: 25px;
+  }
+
+  .footer-message h2 {
+    font-size: 25px;
+  }
+
+  .footer-newsletter h3,
+  .footer-column h3 {
+    font-size: 13px;
+  }
+
+  .newsletter-form input {
+    font-size: 16px;
+  }
+
+  .newsletter-form button {
+    font-size: 28px;
+  }
+
+  .footer-column a,
+  .footer-column p {
+    font-size: 16px;
+  }
+
+  .footer-bottom {
+    padding: 22px 18px;
+    font-size: 10px;
+  }
+}
